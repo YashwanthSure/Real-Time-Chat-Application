@@ -65,16 +65,19 @@ realtime-chat-app/
 ### 1️⃣ Clone the Repository
 git clone https://github.com/USERNAME/REPO_NAME.git
 cd realtime-chat-app
+---
 Backend Setup:
 cd backend
 npm install
 node index.js
 Backend will start on:
 http://localhost:5000
+---
 Frontend Setup:
 cd frontend
 npm install
 npm run dev
+---
 Frontend will start on:
 http://localhost:5173
 <img width="1912" height="891" alt="image" src="https://github.com/user-attachments/assets/f2840c1b-86ee-4615-8a37-b9c8008b376d" />
