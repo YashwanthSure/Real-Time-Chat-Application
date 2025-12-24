@@ -1,0 +1,93 @@
+.app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Join Room */
+  .join {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .join input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .join button {
+    padding: 10px 16px;
+    border: none;
+    background: #22c55e;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Chat */
+  .chat {
+    width: 350px;
+    background: #020617;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    background: #334155;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    max-width: 80%;
+  }
+  
+  .message.own {
+    background: #22c55e;
+    color: black;
+    margin-left: auto;
+  }
+  
+  .message span {
+    display: block;
+    font-size: 10px;
+    margin-top: 4px;
+  }
+  
+  /* Input */
+  .input-box {
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+  }
+  
+  .input-box input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .input-box button {
+    padding: 8px 14px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
